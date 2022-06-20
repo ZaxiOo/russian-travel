@@ -1,0 +1,28 @@
+.lead-brief__title {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  max-width: 720px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .lead-brief__title {
+    margin: 0 24px 0;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .lead-brief__title {
+    margin: 0 24px 0;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+}
