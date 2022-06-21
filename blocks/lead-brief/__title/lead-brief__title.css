@@ -20,9 +20,12 @@
 @media screen and (max-width: 767px) {
 
   .lead-brief__title {
-    margin: 0 24px 0;
+    margin: 0 16px 0;
     font-size: 40px;
     line-height: 44px;
+    max-width: 288px;
   }
+
+
 
 }
