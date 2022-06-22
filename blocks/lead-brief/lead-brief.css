@@ -1,9 +1,24 @@
-.lead-brief {
-  padding-top: 56px;
-  max-width: 984px;
-  margin: 0 auto;
+  .lead-brief {
+  padding: 56px 148px 0 148px;
+  width: calc(100% - 148px * 2);
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 
 }
+
+@media screen and (max-width: 1279px) {
+  .lead-brief {
+    width: calc(100% - 48px * 2);
+    padding: 48px 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead-brief {
+    width: 100%;
+    padding: 48px 0 0;
+  }
+}
+

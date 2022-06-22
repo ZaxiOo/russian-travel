@@ -1,0 +1,21 @@
+.places__card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 75px;
+}
+
+.places__card:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__card {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .places__card {
+    flex-direction: column;
+  }
+}

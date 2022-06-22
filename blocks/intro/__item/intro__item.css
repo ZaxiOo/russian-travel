@@ -1,0 +1,11 @@
+.intro__item {
+  margin: 0;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.intro__item:first-of-type {
+  margin: 0;
+}
