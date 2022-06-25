@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-.cover__overlay:hover {
-  opacity: .9;
+.cover:hover .cover__overlay {
+  opacity: .8;
   cursor: pointer;
 }

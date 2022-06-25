@@ -6,6 +6,10 @@
   line-height: 18px;
 }
 
+a:hover:before {
+  opacity: 1;
+}
+
 @media screen and (max-width: 580px) {
   .footer__link {
     margin-right: 0;
