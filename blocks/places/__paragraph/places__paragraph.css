@@ -9,7 +9,6 @@
 .places__paragraph:nth-child(1) {
     padding-top: 0;
   }
-}
 
 @media screen and (max-width: 1279px) {
   .places__paragraph {
